@@ -1,0 +1,8 @@
+feature,all_events,fold_min,fold_max
+wildland_dist_m,-0.0623,-0.1232,-0.0316
+wildland_frac,0.1139,-0.0343,0.2294
+slope_deg,0.1044,0.0366,0.1412
+northness,0.0262,-0.0066,0.0425
+eastness,-0.1169,-0.1407,-0.0879
+tpi_m,0.082,0.0465,0.1204
+n_neighbours,-0.2343,-0.3186,-0.0706

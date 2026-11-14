@@ -1,0 +1,59 @@
+# Download parameters for every external dataset. Licence strings are copied
+# into each download's manifest.json. None of these sources needs credentials.
+
+# Activations from EMSR656 (2023) on list their products in the rapid-mapping
+# API. Older activations only list them as links on their portal page.
+ems:
+  name: Copernicus EMS Rapid Mapping vector packages
+  provider: Copernicus Emergency Management Service
+  activations_api: "https://mapping.emergency.copernicus.eu/activations/api/activations/"
+  products_api: "https://rapidmapping.emergency.copernicus.eu/backend/dashboard-api/public-activations/"
+  activation_page: "https://mapping.emergency.copernicus.eu/activations/{code}/"
+  license: "Copernicus data policy, Regulation (EU) 2021/696. Cite: (c) European Union, Copernicus Emergency Management Service"
+  output_dir: "data/raw/ems"
+
+buildings:
+  name: Microsoft Global ML Building Footprints
+  provider: Microsoft
+  index_url: "https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv"
+  region: "Greece"
+  license: "ODbL 1.0 (https://opendatacommons.org/licenses/odbl/)"
+  output_dir: "data/raw/buildings_msft"
+
+dem:
+  name: Copernicus GLO-30 DEM
+  provider: ESA / Copernicus, via AWS Open Data
+  base_url: "https://copernicus-dem-30m.s3.amazonaws.com"
+  license: "Copernicus DEM licence (free, attribution required). (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA"
+  output_dir: "data/raw/dem"
+
+# 3 x 3 degree tiles named by their south-west corner. The 2020 map predates
+# every study fire.
+worldcover:
+  name: ESA WorldCover 10 m 2020 v100
+  provider: ESA WorldCover consortium, via AWS Open Data
+  base_url: "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v100/2020/map"
+  license: "CC BY 4.0. (c) ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium"
+  output_dir: "data/raw/worldcover"
+
+# Sentinel-2 Collection 1 L2A, reprocessed by ESA with one processing
+# baseline, so every scene has the same reflectance offset. The images are
+# read window by window from the Cloud-Optimized GeoTIFFs and not stored;
+# output_dir only holds the manifest.
+sentinel2:
+  name: Sentinel-2 L2A Collection 1 (Earth Search)
+  provider: ESA / Copernicus; Cloud-Optimized GeoTIFFs on AWS Open Data, catalogued by Element 84
+  stac_search: "https://earth-search.aws.element84.com/v1/search"
+  collection: "sentinel-2-c1-l2a"
+  assets: {nir: nir08, swir: swir22, scl: scl}  # B8A, B12 and scene classification, all 20 m
+  license: "Copernicus Sentinel data terms: free, full and open access. Contains modified Copernicus Sentinel data"
+  output_dir: "data/raw/sentinel2"
+
+# CORINE 2018 status layer (reference year 2018, before every study fire).
+corine:
+  name: CORINE Land Cover 2018 vector
+  provider: European Environment Agency
+  query_url: "https://image.discomap.eea.europa.eu/arcgis/rest/services/Corine/CLC2018_WM/MapServer/0/query"
+  code_field: "Code_18"
+  license: "Copernicus Land Monitoring Service, free and open access. (c) European Union, Copernicus Land Monitoring Service 2018, European Environment Agency (EEA)"
+  output_dir: "data/raw/corine"

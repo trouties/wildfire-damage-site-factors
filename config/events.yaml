@@ -1,0 +1,46 @@
+# Which Copernicus EMS grading products become study events, and how their
+# building points become labels. The rules use label availability only, never
+# model results. src.acquire.ems applies them and writes
+# outputs/labels/ems_events.csv with the selection reason for every AOI.
+
+country: "Greece"
+category: "Wildfire"
+# CORINE 2018 is the pre-fire land cover, so every fire must come after it.
+min_activation_date: "2019-01-01"
+
+# An event is one grading AOI. An AOI can have several products: the first
+# grading, later monitoring gradings, and re-releases. Some monitoring
+# products re-grade the whole AOI (often turning "Possibly damaged" into
+# Damaged or Destroyed), others cover only part of it. So all products are
+# merged point by point: newest first, a point within this distance of a point
+# already taken from a newer product is dropped.
+version_merge_tolerance_m: 2
+
+# AOIs with fewer confirmed-damage points than this (after merging) are not
+# study events. Their burnt-area polygons still count towards the
+# activation's burnt area.
+min_damaged_points: 10
+
+damaged_grades: ["Damaged", "Destroyed"]
+
+# "Possibly damaged" means damage could not be confirmed on the imagery. In
+# some AOIs nearly every graded point gets it (n_possibly_damaged in
+# outputs/labels/ems_events.csv). These buildings
+# keep their grade with damaged = NULL here; src.analysis.evaluate decides per
+# analysis whether they count as undamaged or are left out.
+unlabelled_grades: ["Possibly damaged"]
+
+# From least to most severe. "Not Analysed" means EMS could not assess the
+# building (e.g. cloud); such buildings get no label rather than a negative one.
+grade_order: ["Not Analysed", "No visible damage", "Possibly damaged", "Damaged", "Destroyed"]
+
+# A point is linked to the footprint containing it, else to the nearest
+# footprint within this distance; damaged_point_link_rate in
+# outputs/labels/label_summary.csv gives the share of damaged points it links
+# in each event.
+point_match_max_m: 10
+
+# If fewer damaged points than this find a footprint, the footprint layer
+# probably postdates the fire (destroyed houses removed) or misses the
+# settlement, and the event is dropped.
+min_damaged_link_rate: 0.8

@@ -1,0 +1,59 @@
+# Per-building static features (src.features.build). Terrain and land cover
+# predate every study fire; the building footprints are a 2026 release.
+
+corine:
+  forest: [311, 312, 313]
+  # Natural grassland, moors, sclerophyllous vegetation (maquis/phrygana),
+  # transitional woodland-shrub.
+  shrub: [321, 322, 323, 324]
+  # wildland = forest + shrub. Sparse vegetation (333) and 2018 burnt areas
+  # (334) are left out.
+  wildland_fraction_radius_m: 500
+  # CORINE maps units of at least 25 ha, so a finer grid adds nothing.
+  cell_m: 25
+
+terrain:
+  tpi_radius_m: 300
+  cell_m: 30           # GLO-30 is 1 arc-second, about 24 x 31 m in Greece
+
+# Added after the first results, to test whether the weak distance effect
+# comes from CORINE's 25 ha mapping unit: distance to the nearest ESA
+# WorldCover 2020 cell of tree cover (10), shrubland (20) or grassland (30),
+# the classes matching the CORINE wildland codes above, on a 10 m grid and with
+# the same cap (wildland_fraction_radius_m). Scored like the CORINE distance,
+# never a model input. Fixed before it was computed.
+worldcover:
+  wildland: [10, 20, 30]
+  cell_m: 10
+
+buildings:
+  # Neighbours are counted among all footprints, including those outside the
+  # exposure domain, so domain edges do not look isolated.
+  neighbour_radius_m: 100
+  context_buffer_m: 300
+
+# Positive control (src.features.dnbr), not a static feature and not a model
+# input: burn severity around each building from Sentinel-2 L2A reflectance,
+# NBR = (B8A - B12) / (B8A + B12), dNBR = NBR before - NBR after the fire.
+# Fixed before any dNBR value was computed.
+dnbr:
+  cell_m: 20              # native resolution of B8A, B12 and SCL
+  radius_m: 100           # mean over the valid cells within this distance of the centroid
+  # Search windows in days relative to the EMS activation date. Fires start
+  # up to a few days before their activation, and the post-fire window
+  # starts late enough for the fire front to have passed.
+  pre_days: [-40, -5]
+  post_days: [10, 40]
+  max_tile_cloud_pct: 50  # STAC prefilter only; the test that decides is below
+  # Scene classification (SCL) values that make a cell invalid: no data,
+  # saturated or defective, cloud of medium or high probability, thin cirrus.
+  # Dark area (2) and cloud shadow (3) stay valid because a burn scar is a
+  # dark surface. Water (6) is invalid where the pre-fire scene shows it.
+  invalid_scl: [0, 1, 8, 9, 10]
+  invalid_scl_pre_fire: [6]
+  # An acquisition is usable if the centroid cells of at least this share
+  # of the event's buildings are valid. The post-fire acquisition is the
+  # usable one closest after the fire, the pre-fire acquisition the usable
+  # one closest before it on the same relative orbit. Without such a pair
+  # the event has no control value; the rules are not relaxed.
+  min_valid_building_share: 0.95

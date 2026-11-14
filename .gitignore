@@ -1,0 +1,35 @@
+# Downloaded and derived data (rebuilt by the pipeline)
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Tool caches
+.ruff_cache/
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials
+.env
+*.pem
+*.key
+secrets/
+
+# Local working notes, not part of the project
+.claude/
+plans/
+CLAUDE.md
+docs/archive/

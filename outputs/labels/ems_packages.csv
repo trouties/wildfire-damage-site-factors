@@ -1,0 +1,71 @@
+event,activation,activation_name,activation_date,monitoring,release,version,url
+EMSR369_AOI01,EMSR369,Forest Fire in Evia Island- Greece,2019-07-05,0,1,3,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR369/EMSR369_AOI01_GRA_PRODUCT_r1_RTP01_v3_vector.zip
+EMSR369_AOI02,EMSR369,Forest Fire in Evia Island- Greece,2019-07-05,0,1,3,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR369/EMSR369_AOI02_GRA_PRODUCT_r1_RTP01_v3_vector.zip
+EMSR369_AOI03,EMSR369,Forest Fire in Evia Island- Greece,2019-07-05,0,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR369/EMSR369_AOI03_GRA_PRODUCT_r1_RTP01_v2_vector.zip
+EMSR380_AOI01,EMSR380,Forest fire in Evia Island- Greece,2019-08-13,0,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR380/EMSR380_AOI01_GRA_PRODUCT_r1_RTP01_v2_vector.zip
+EMSR389_AOI01,EMSR389,Forest fire in Loutraki area- Greece,2019-09-18,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR389/EMSR389_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR390_AOI01,EMSR390,Forest fire in Zakynthos Island- Greece,2019-09-18,0,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR390/EMSR390_AOI01_GRA_PRODUCT_r1_RTP01_v2_vector.zip
+EMSR447_AOI01,EMSR447,Fire in Corinthia- Greece,2020-07-23,0,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR447/EMSR447_AOI01_GRA_PRODUCT_r1_RTP01_v2_vector.zip
+EMSR455_AOI01,EMSR455,Fire In Eastern Mani- Greece,2020-08-23,0,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR455/EMSR455_AOI01_GRA_PRODUCT_r1_RTP01_v2_vector.zip
+EMSR510_AOI01,EMSR510,Fire in Peloponnese and Attika Regions- Greece,2021-05-20,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR510/EMSR510_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR516_AOI01,EMSR516,Wildfire in Kephalonia- Greece,2021-07-05,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR516/EMSR516_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR521_AOI01,EMSR521,Fire in Samos Island- Greece,2021-07-16,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR521/EMSR521_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR525_AOI01,EMSR525,Fire in Aigialeia Municipality- Western Greece,2021-08-01,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR525/EMSR525_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR526_AOI01,EMSR526,Fire in Rhodes island- North Aegean District- Greece,2021-08-02,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR526/EMSR526_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR527_AOI01,EMSR527,Wildfires in Greece,2021-08-04,0,2,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI01_GRA_PRODUCT_r2_RTP01_v1_vector.zip
+EMSR527_AOI02,EMSR527,Wildfires in Greece,2021-08-04,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI02_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR527_AOI03,EMSR527,Wildfires in Greece,2021-08-04,0,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI03_GRA_PRODUCT_r1_RTP01_v2_vector.zip
+EMSR527_AOI04,EMSR527,Wildfires in Greece,2021-08-04,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI04_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR527_AOI05,EMSR527,Wildfires in Greece,2021-08-04,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI05_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR527_AOI06,EMSR527,Wildfires in Greece,2021-08-04,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI06_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR527_AOI07,EMSR527,Wildfires in Greece,2021-08-04,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR527/EMSR527_AOI07_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR528_AOI01,EMSR528,Forest fire in Ancient Olympia Municipality- Western Greece Region- Greece,2021-08-05,0,2,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR528/EMSR528_AOI01_GRA_PRODUCT_r2_RTP01_v1_vector.zip
+EMSR530_AOI01,EMSR530,Wildfire in Fokida- Greece,2021-08-06,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR530/EMSR530_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR530_AOI02,EMSR530,Wildfire in Fokida- Greece,2021-08-06,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR530/EMSR530_AOI02_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR531_AOI01,EMSR531,Wildfire in East Mani- Greece,2021-08-06,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR531/EMSR531_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR532_AOI01,EMSR532,Wildfire in Diabolitsi- Greece,2021-08-06,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR532/EMSR532_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR540_AOI01,EMSR540,Fire in Western Attica- Greece,2021-08-17,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR540/EMSR540_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR540_AOI01,EMSR540,Fire in Western Attica- Greece,2021-08-17,1,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR540/EMSR540_AOI01_GRA_MONIT01_r1_RTP01_v1_vector.zip
+EMSR542_AOI01,EMSR542,Forest fire in Lavrio- Eastern Attica- Greece,2021-08-17,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR542/EMSR542_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR547_AOI01,EMSR547,Wildfire in Karpathos- Greece,2021-09-27,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR547/EMSR547_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR576_AOI01,EMSR576,Fire in Mount Hymettus- Greece,2022-06-05,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR576/EMSR576_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR587_AOI01,EMSR587,Wildfire in Portes- Greece,2022-07-05,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR587/EMSR587_AOI01_GRA_PRODUCT_r1_VECTORS_v1_vector.zip
+EMSR588_AOI01,EMSR588,Wildfire in Itea- Greece,2022-07-05,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR588/EMSR588_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR593_AOI01,EMSR593,Forest Fire in South Crete- Greece,2022-07-17,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR593/EMSR593_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR593_AOI01,EMSR593,Forest Fire in South Crete- Greece,2022-07-17,1,1,2,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR593/EMSR593_AOI01_GRA_MONIT01_r1_RTP01_v2_vector.zip
+EMSR594_AOI01,EMSR594,Forest Fire in North Peloponnese- Greece,2022-07-18,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR594/EMSR594_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR595_AOI01,EMSR595,Forest fire in Samos Island- Greece,2022-07-18,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR595/EMSR595_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR598_AOI01,EMSR598,Wildfire in Athens- Greece,2022-07-20,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR598/EMSR598_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR605_AOI01,EMSR605,Wildfire in Dadia National Park,2022-07-22,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR605/EMSR605_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR607_AOI01,EMSR607,Forest fire in Lesvos- Greece,2022-07-24,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR607/EMSR607_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR607_AOI01,EMSR607,Forest fire in Lesvos- Greece,2022-07-24,1,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR607/EMSR607_AOI01_GRA_MONIT01_r1_RTP01_v1_vector.zip
+EMSR608_AOI01,EMSR608,Wildfire in Krestena- Greece,2022-07-25,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR608/EMSR608_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR624_AOI01,EMSR624,Forest Fire in Thassos Island - Greece,2022-08-17,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR624/EMSR624_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR638_AOI01,EMSR638,Wildfire in Papikio Mountain- Greece,2022-11-03,0,1,1,https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR638/EMSR638_AOI01_GRA_PRODUCT_r1_RTP01_v1_vector.zip
+EMSR672_AOI01,EMSR672,"Wildfire in Attica, Greece",2023-07-17,0,1,3,https://rapidmapping.emergency.copernicus.eu/backend/EMSR672/AOI01/GRA_PRODUCT/EMSR672_AOI01_GRA_PRODUCT_v3.zip
+EMSR673_AOI01,EMSR673,"Wildfire in western Attica, Greece",2023-07-18,0,1,2,https://rapidmapping.emergency.copernicus.eu/backend/EMSR673/AOI01/GRA_PRODUCT/EMSR673_AOI01_GRA_PRODUCT_v2.zip
+EMSR674_AOI01,EMSR674,"Wildfire in Eastern Peloponnese Region, Greece",2023-07-18,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR674/AOI01/GRA_PRODUCT/EMSR674_AOI01_GRA_PRODUCT_v1.zip
+EMSR675_AOI01,EMSR675,"Wildfire on Rhodes island, Greece",2023-07-19,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR675/AOI01/GRA_PRODUCT/EMSR675_AOI01_GRA_PRODUCT_v1.zip
+EMSR676_AOI01,EMSR676,"Wildfire in Aigio, Peloponnese, Greece",2023-07-24,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR676/AOI01/GRA_PRODUCT/EMSR676_AOI01_GRA_PRODUCT_v1.zip
+EMSR676_AOI01,EMSR676,"Wildfire in Aigio, Peloponnese, Greece",2023-07-24,1,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR676/AOI01/GRA_MONIT01/EMSR676_AOI01_GRA_MONIT01_v1.zip
+EMSR677_AOI01,EMSR677,"Wildfire in Corfu, Greece",2023-07-24,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR677/AOI01/GRA_PRODUCT/EMSR677_AOI01_GRA_PRODUCT_v1.zip
+EMSR678_AOI01,EMSR678,"Wildfire in Euboea Prefecture, Greece",2023-07-24,0,1,2,https://rapidmapping.emergency.copernicus.eu/backend/EMSR678/AOI01/GRA_PRODUCT/EMSR678_AOI01_GRA_PRODUCT_v2.zip
+EMSR678_AOI01,EMSR678,"Wildfire in Euboea Prefecture, Greece",2023-07-24,1,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR678/AOI01/GRA_MONIT01/EMSR678_AOI01_GRA_MONIT01_v1.zip
+EMSR679_AOI01,EMSR679,"Wildfire in Thessaly region, Greece",2023-07-27,0,1,2,https://rapidmapping.emergency.copernicus.eu/backend/EMSR679/AOI01/GRA_PRODUCT/EMSR679_AOI01_GRA_PRODUCT_v2.zip
+EMSR729_AOI01,EMSR729,Wildfire in Greece,2024-06-19,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR729/AOI01/GRA_PRODUCT/EMSR729_AOI01_GRA_PRODUCT_v1.zip
+EMSR730_AOI01,EMSR730,"Wildfire in Latas, Greece",2024-06-22,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR730/AOI01/GRA_PRODUCT/EMSR730_AOI01_GRA_PRODUCT_v1.zip
+EMSR731_AOI01,EMSR731,"Wildfire in Alpochori, Greece",2024-06-23,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR731/AOI01/GRA_PRODUCT/EMSR731_AOI01_GRA_PRODUCT_v1.zip
+EMSR733_AOI01,EMSR733,"Wildfire in Attica, Greece",2024-07-01,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR733/AOI01/GRA_PRODUCT/EMSR733_AOI01_GRA_PRODUCT_v1.zip
+EMSR733_AOI02,EMSR733,"Wildfire in Attica, Greece",2024-07-01,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR733/AOI02/GRA_PRODUCT/EMSR733_AOI02_GRA_PRODUCT_v1.zip
+EMSR733_AOI03,EMSR733,"Wildfire in Attica, Greece",2024-07-01,0,1,2,https://rapidmapping.emergency.copernicus.eu/backend/EMSR733/AOI03/GRA_PRODUCT/EMSR733_AOI03_GRA_PRODUCT_v2.zip
+EMSR735_AOI01,EMSR735,"Wildfire in Kos, Greece",2024-07-02,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR735/AOI01/GRA_PRODUCT/EMSR735_AOI01_GRA_PRODUCT_v1.zip
+EMSR743_AOI01,EMSR743,"Wildfire in Central Greece, Greece",2024-07-30,0,1,2,https://rapidmapping.emergency.copernicus.eu/backend/EMSR743/AOI01/GRA_PRODUCT/EMSR743_AOI01_GRA_PRODUCT_v2.zip
+EMSR746_AOI01,EMSR746,"Wildfire in Attica region, Greece",2024-08-12,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR746/AOI01/GRA_PRODUCT/EMSR746_AOI01_GRA_PRODUCT_v1.zip
+EMSR769_AOI01,EMSR769,"Wildfire in Geraki, Greece",2024-10-04,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR769/AOI01/GRA_PRODUCT/EMSR769_AOI01_GRA_PRODUCT_v1.zip
+EMSR769_AOI01,EMSR769,"Wildfire in Geraki, Greece",2024-10-04,1,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR769/AOI01/GRA_MONIT01/EMSR769_AOI01_GRA_MONIT01_v1.zip
+EMSR807_AOI01,EMSR807,Wildfire in Greece,2025-06-26,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR807/AOI01/GRA_PRODUCT/EMSR807_AOI01_GRA_PRODUCT_v1.zip
+EMSR807_AOI01,EMSR807,Wildfire in Greece,2025-06-26,1,1,2,https://rapidmapping.emergency.copernicus.eu/backend/EMSR807/AOI01/GRA_MONIT01/EMSR807_AOI01_GRA_MONIT01_v2.zip
+EMSR907_AOI01,EMSR907,"Wildfires in Crete Island, Greece",2026-07-30,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR907/AOI01/GRA_PRODUCT/EMSR907_AOI01_GRA_PRODUCT_v1.zip
+EMSR909_AOI01,EMSR909,"Wildfires in Viotia, Greece",2026-07-31,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR909/AOI01/GRA_PRODUCT/EMSR909_AOI01_GRA_PRODUCT_v1.zip
+EMSR910_AOI01,EMSR910,"Wildfire in Achaia, Greece",2026-08-01,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR910/AOI01/GRA_PRODUCT/EMSR910_AOI01_GRA_PRODUCT_v1.zip
+EMSR929_AOI01,EMSR929,"Wildfire in Trapezitsa Mountain, Greece",2026-09-06,0,1,1,https://rapidmapping.emergency.copernicus.eu/backend/EMSR929/AOI01/GRA_PRODUCT/EMSR929_AOI01_GRA_PRODUCT_v1.zip

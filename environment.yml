@@ -1,0 +1,20 @@
+name: geo311
+channels:
+  - conda-forge
+channel_priority: strict
+dependencies:
+  - python=3.11
+  - geopandas
+  - pyogrio
+  - shapely
+  - rasterio
+  - affine
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  - requests
+  - pytest
+  - ruff

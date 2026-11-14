@@ -1,0 +1,48 @@
+# Evaluation of the static features (src.analysis.evaluate). Set before the
+# first run and not tuned on its results.
+
+# Logistic-model features. n_neighbours enters as log(1 + n). The
+# single-feature baseline is wildland_dist_m alone, nearer meaning riskier.
+features: [wildland_dist_m, wildland_frac, slope_deg, northness, eastness, tpi_m, n_neighbours]
+
+# Spatial block bootstrap of every event's AUC: grid squares of block_m are
+# resampled as units. 1 km was chosen before the first run, not estimated.
+# outputs/results/label_correlation.csv gives the correlation between two
+# buildings' headline labels by their distance, in classes of
+# label_correlation_bin_m up to label_correlation_max_m; the README results
+# block quotes it.
+block_m: 1000
+n_boot: 2000
+seed: 0
+label_correlation_bin_m: 100
+label_correlation_max_m: 3000
+
+# Added after the first run, which showed that footprint area separates
+# EMS-graded from ungraded footprints but not damaged from possibly damaged
+# (README results block), so many "undamaged" footprints may be small
+# structures EMS does not grade. The check repeats the comparison with
+# ungraded footprints without footprints smaller than this quantile of the
+# EMS-graded footprints' areas.
+graded_area_quantile: 0.10
+
+# Added after the first results. When the undamaged buildings are footprints
+# EMS did not grade, the damaged ones are EMS points and the undamaged ones
+# are not, so any difference partly reflects which buildings EMS lists. This
+# analysis uses EMS-graded buildings only: Damaged or Destroyed against
+# Possibly damaged or No visible damage, with the same features, model and
+# bootstrap. An event enters if it has at least this many buildings in each
+# of the two classes. Fixed before the analysis was first run.
+graded_only_min_per_class: 20
+
+# Added after the first results (worldcover in config/features.yaml): distance
+# to wildland from 10 m land cover, scored like the CORINE distance (nearer =
+# riskier) on every choice of undamaged buildings, with the same bootstrap.
+# Not a model input. Fixed before it was first evaluated.
+fine_baseline: wildland_dist_wc_m
+
+# Positive control: burn severity around each building (dnbr in
+# config/features.yaml), higher ranked as more likely damaged. It is scored
+# like distance, on every choice of undamaged buildings and with the same
+# bootstrap, but never enters the model. An event without a Sentinel-2 pair
+# is left out of the control's mean. Fixed before the control was evaluated.
+control: dnbr_100m
